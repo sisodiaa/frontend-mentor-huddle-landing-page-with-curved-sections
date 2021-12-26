@@ -1,101 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="./images/favicon-32x32.png"
+  />
   <link rel="stylesheet" type="text/css" href="css/style.css" />
-  
+
   <title>Frontend Mentor | Huddle landing page with curved sections</title>
 </head>
 <body>
   <div class="container">
-    <header class="page__header">
-      <img class="page__logo page__logo--header" src="images/logo.svg" alt="Huddle">
+    <header class="page__header" style="margin: 1.5rem auto 7.5rem">
+      <img
+        class="page__logo page__logo--header"
+        src="images/logo.svg"
+        alt="Huddle"
+      />
       <a class="page__button page__button--header" href="#">Try it free</a>
     </header>
-    
-    <main class="page__hero">
-      <h1 class="page__heading page__heading--hero">Build The Community Your Fans Will Love</h1>
-      
-      <p class="page__paragraph page__paragraph--hero">
-        Huddle re-imagines the way we build communities. You have a voice, but so does 
-        your audience. Create connections with your users as you engage in genuine discussion. 
-      </p>
-      
-      <a class="page__button page__button--hero" href="#">Get Started For Free</a>
 
-      <img src="images/screen-mockups.svg" alt="Screen Mockups" class="page__mockup"/>
+    <main class="page__hero" style="margin: 0rem auto 9rem">
+      <h1
+        class="page__heading page__heading--hero"
+        style="margin: 0 0 1.5rem 0"
+      >
+        Build The Community Your Fans Will Love
+      </h1>
+
+      <p
+        class="page__paragraph page__paragraph--hero"
+        style="
+          margin-bottom: 3rem;
+          padding-left: 0.5rem;
+          padding-right: 0.5rem;
+        "
+      >
+        Huddle re-imagines the way we build communities. You have a voice, but
+        so does your audience. Create connections with your users as you
+        engage in genuine discussion.
+      </p>
+
+      <a
+        class="page__button page__button--hero"
+        href="#"
+        style="margin-bottom: 6rem;"
+      >
+        Get Started For Free
+      </a>
+
+      <img
+        src="images/screen-mockups.svg"
+        alt="Screen Mockups"
+        class="page__mockup"
+        style="padding: 0 0.875rem 0 0.875rem;"
+      />
     </main>
-    
-    <section class="page__stats">
-      <h2 class="page__subheading page__subheading--stats">2.4k+ <span>Communities Formed</span></h2>
-      
-      <h2 class="page__subheading page__subheading--stats">2.7m+ <span>Messages Sent</span></h2>
-    </section>
-    
-    <ul class="page__benefits">
-      <li class="page__benefit">
-        <img src="images/illustration-grow-together.svg" alt="Grow Together" class="page__illustration"/>
-        <h2 class="page__subheading page__subheading--benefit">Grow Together</h2>
-        <p class="page__paragraph page__paragraph--benefit">
-          Generate meaningful discussions with your audience and build a strong, loyal community. 
-          Think of the insightful conversations you miss out on with a feedback form. 
-        </p>
+
+    <ul class="page__stats" style="margin-bottom: 9rem;">
+      <li class="page__stat" style="margin-bottom: 7.5rem;">
+        1.4k+ <span style="margin-top: 0.5rem;">Communities Formed</span>
       </li>
       
-      <li class="page__benefit">
-        <img src="images/illustration-flowing-conversation.svg" alt="Flowing Conversations" class="page__illustration"/>
-        <h2 class="page__subheading page__subheading--benefit">Flowing Conversations</h2>
+      <li class="page__stat">
+        2.7m+ <span>Messages Sent</span>
+      </li>
+    </ul>
+
+    <ul class="page__benefits" style="margin-bottom: 10.5rem;">
+      <li
+        class="page__benefit page__benefit--1"
+        style="margin-bottom: 6rem; padding-top: 5rem; padding-bottom: 4rem;"
+      >
+        <img
+          src="images/illustration-grow-together.svg"
+          alt="Grow Together"
+          class="page__illustration"
+          style="margin-bottom: 4.5rem; padding-left: 15%; padding-right: 15%;"
+        />
+        <h2
+          class="page__subheading page__subheading--benefit"
+          style="margin-bottom: 1rem;"
+        >
+          Grow Together
+        </h2>
         <p class="page__paragraph page__paragraph--benefit">
-          You wouldn't paginate a conversation in real life, so why do it online? Our threads have 
-          just-in-time loading for a more natural flow.
+          Generate meaningful discussions with your audience and build a
+          strong, loyal community. Think of the insightful conversations you
+          miss out on with a feedback form.
         </p>
       </li>
-      
-      <li class="page__benefit">
-        <img src="images/illustration-your-users.svg" alt="Your Users" class="page__illustration"/>
-        <h2 class="page__subheading page__subheading--benefit">Your Users</h2>
+
+      <li
+        class="page__benefit page__benefit--2"
+        style="margin-bottom: 6rem; padding-top: 5rem; padding-bottom: 4rem;"
+      >
+        <img
+          src="images/illustration-flowing-conversation.svg"
+          alt="Flowing Conversations"
+          class="page__illustration"
+          style="margin-bottom: 6rem; padding-left: 15%; padding-right: 15%;"
+        />
+        <h2
+          class="page__subheading page__subheading--benefit"
+          style="margin-bottom: 1rem;"
+        >
+          Flowing Conversations
+        </h2>
         <p class="page__paragraph page__paragraph--benefit">
-          It takes no time at all to integrate Huddle with your app's authentication solution. This means, 
-          once signed in to your app, your users can start chatting immediately.
+          You wouldn't paginate a conversation in real life, so why do it
+          online? Our threads have just-in-time loading for a more natural
+          flow.
+        </p>
+      </li>
+
+      <li
+        class="page__benefit page__benefit--3"
+        style="margin-bottom: 6rem; padding-top: 1rem; padding-bottom: 7.5rem;"
+      >
+        <img
+          src="images/illustration-your-users.svg"
+          alt="Your Users"
+          class="page__illustration"
+          style="margin-bottom: 5rem; padding-left: 15%; padding-right: 15%;"
+        />
+        <h2
+          class="page__subheading page__subheading--benefit"
+          style="margin-bottom: 1rem;"
+        >
+          Your Users
+        </h2>
+        <p class="page__paragraph page__paragraph--benefit">
+          It takes no time at all to integrate Huddle with your app's
+          authentication solution. This means, once signed in to your app,
+          your users can start chatting immediately.
         </p>
       </li>
     </ul>
-    
-    <section class="page__cta">
-      <h1 class="page__heading page__heading--cta">Ready To Build Your Community?</h1>
+
+    <section class="page__cta" style="margin-bottom: 12rem;">
+      <h1 class="page__heading page__heading--cta" style="margin-bottom: 2.5rem;">
+        Ready To Build Your Community?
+      </h1>
       <a class="page__button page__button--cta" href="#">Get Started For Free</a>
     </section>
-    
-    <footer class="page__footer">
-      <h2 class="page__subheading page__subheading--footer">Newsletter</h2>
-      <p class="page__paragraph page__paragraph--footer">
-        To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never 
-        send you spam or pass on your email address
+
+    <footer
+      class="page__footer"
+      style="padding-left: 1.75rem; padding-right: 1.75rem; padding-top: 3.5rem; padding-bottom: 2.75rem;"
+    >
+      <h2 class="page__subheading page__subheading--footer" style="margin-bottom: 1rem;">
+        Newsletter
+      </h2>
+      <p class="page__paragraph page__paragraph--footer" style="margin-bottom: 2rem;">
+        To recieve tips on how to grow your community, sign up to our weekly
+        newsletter. We’ll never send you spam or pass on your email address
       </p>
-      
-      <form class="page__form">
-        <input id="page__email" class="page__email" type="email" name="email">
-        <input type="submit" value="Subscribe">
+
+      <form class="page__form" style="margin-bottom: 6rem;">
+        <input
+          id="page__email"
+          class="page__email"
+          type="email"
+          name="email"
+        />
+        <input type="submit" value="Subscribe" />
       </form>
-      
-      <div class="page__about">
-        <img class="page__logo page__logo--footer" src="images/logo.svg" alt="Huddle">
+
+      <div class="page__about" style="margin-bottom: 3rem;">
+        <img
+          class="page__logo page__logo--footer"
+          src="images/logo-white.svg"
+          alt="Huddle"
+          style="margin-bottom: 1rem; padding-top: 0.5rem;"
+        />
         <p class="page__paragraph page__paragraph--footer">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia 
-          vestibulum a, ultrices quis sem.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
+          nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.
         </p>
       </div>
-      
-      <ul class="page__contact">
-        <li class="page__phone">
-          <img src="images/icon-phone.svg" alt="Phone"/>
+
+      <ul class="page__contact" style="margin-bottom: 3rem;">
+        <li class="page__phone" style="margin-bottom: 1.5rem;">
+          <img src="images/icon-phone.svg" alt="Phone" />
           Phone: +1-543-123-4567
         </li>
         <li class="page__email">
-          <img src="images/icon-email.svg" alt="Email"/>
+          <img src="images/icon-email.svg" alt="Email" />
           example@huddle.com
         </li>
       </ul>
@@ -122,8 +218,10 @@
 
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Abhishek Sisodia</a>.
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Abhishek Sisodia</a>.
     </p>
   </footer>
 </body>

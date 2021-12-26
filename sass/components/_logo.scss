@@ -1,0 +1,12 @@
+.page {
+  &__logo {
+    &--header {
+      width: 6rem;
+      height: auto;
+    }
+
+    &--footer {
+      width: 62.5%;
+    }
+  }
+}
