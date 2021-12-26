@@ -31,17 +31,8 @@ a:visited {
   text-decoration: none;
 }
 
-p {
-  font-size: 0.875rem;
-  line-height: 1.5;
-}
-
 li {
   list-style: none;
-}
-
-h2 {
-  font-size: 1.25rem;
 }
 
 html {
@@ -58,12 +49,29 @@ h2 {
   font-weight: 700;
 }
 
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.subheading--footer {
+  text-transform: uppercase;
+}
+
 .container {
   width: 100%;
   margin: 0 auto;
 }
 
-.page__header {
+header {
   width: 87.5%;
   display: flex;
   justify-content: space-between;
@@ -87,25 +95,17 @@ footer::before {
   background-size: contain;
 }
 
-.page__logo--header {
-  width: 6rem;
-  height: auto;
-}
-.page__logo--footer {
-  width: 62.5%;
-}
-
-.page__button {
+.button {
   display: block;
   border-radius: 2rem;
 }
-.page__button--header {
+.button--header {
   padding: 0.25rem 1.15rem;
   font-size: 0.6rem;
   color: var(--color-light-pink);
   border: 1px solid var(--color-light-pink);
 }
-.page__button--hero, .page__button--cta {
+.button--hero, .button--cta {
   padding: 0.75rem 0rem;
   width: 12.5rem;
   font-size: 0.75rem;
@@ -115,15 +115,37 @@ footer::before {
   margin: 0 auto;
 }
 
-.page__heading {
-  font-size: 1.5rem;
-}
-
-.page__paragraph--benefit {
+.paragraph--benefit {
   width: 86%;
   margin: 0 auto;
 }
 
+.icons {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.icon-box {
+  cursor: pointer;
+}
+
+.icon {
+  display: block;
+  margin: auto;
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: var(--color-white);
+}
+
+.page__logo--header {
+  width: 6rem;
+  height: auto;
+}
+.page__logo--footer {
+  width: 62.5%;
+}
 .page__hero {
   width: 87.5%;
   text-align: center;
@@ -212,9 +234,6 @@ footer::before {
 .page__illustration {
   width: 100%;
 }
-.page__subheading--footer {
-  text-transform: uppercase;
-}
 .page__paragraph--footer {
   font-size: 0.9375rem;
   line-height: 1.6;
@@ -247,22 +266,6 @@ footer::before {
   display: flex;
   column-gap: 1rem;
   font-size: 0.875rem;
-}
-.page__icons {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  column-gap: 1rem;
-}
-.page__icon-box {
-  cursor: pointer;
-}
-.page__icon {
-  display: block;
-  margin: auto;
-  width: 1.5rem;
-  height: 1.5rem;
-  fill: var(--color-white);
 }
 
 .attribution {

@@ -13,3 +13,22 @@ h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
 }
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.subheading {
+  &--footer {
+    text-transform: uppercase;
+  }
+}

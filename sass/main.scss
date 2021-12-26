@@ -1,15 +1,14 @@
 @use "abstracts/variables";
 
-@use "base/reset";
+@use "base/base";
 @use "base/typography";
 
 @use "layout/container";
 @use "layout/header";
 @use "layout/footer";
 
-@use "components/logo";
 @use "components/button";
-@use "components/heading";
 @use "components/paragraph";
+@use "components/icon";
 
 @use "pages/page";
