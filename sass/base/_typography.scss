@@ -16,6 +16,7 @@ h2 {
 
 h1 {
   font-size: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
@@ -27,8 +28,34 @@ p {
   line-height: 1.5;
 }
 
+.heading {
+  &--hero { margin-bottom: 1.5rem; }
+  &--cta { margin-bottom: 2.5rem; }
+}
+
 .subheading {
+  margin-bottom: 1rem;
+
   &--footer {
     text-transform: uppercase;
+  }
+}
+
+.paragraph {
+  &--hero {
+    margin-bottom: 3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  &--benefit {
+    width: 86%;
+    margin: 0 auto;
+  }
+
+  &--footer {
+    margin-bottom: 2rem;
+    font-size: 0.9375rem;
+    line-height: 1.6;
   }
 }

@@ -9,22 +9,30 @@
 
     &--footer {
       width: 62.5%;
+      margin-bottom: 1rem;
+      padding-top: 0.5rem;
     }
   }
 
   &__hero {
     width: 87.5%;
+    margin: 0rem auto 9rem;
     text-align: center;
   }
 
   &__mockup {
     width: 100%;
+    padding: 0rem 0.875rem;
   }
 
   &__stats,
   &__benefits,
   &__cta {
       text-align: center;
+  }
+
+  &__stats {
+    margin-bottom: 9rem;
   }
 
   &__stat {
@@ -52,6 +60,11 @@
 
     &:first-child {
       font-size: 3.75rem;
+      margin-bottom: 7.5rem;
+      
+      span {
+        margin-top: 0.5rem;
+      }
 
       &::before {
         background-image: url(../../images/icon-communities.svg);
@@ -67,7 +80,22 @@
     }
   }
 
+  &__benefits {
+    margin-bottom: 10.5rem;
+  }
+
   &__benefit {
+    &--1,
+    &--3 {
+      margin-bottom: 6rem;
+    }
+
+    &--1,
+    &--2 {
+      padding-top: 5rem;
+      padding-bottom: 4rem;
+    }
+
     &--1 {
       position: relative;
       background-color: var(--color-pale-blue);
@@ -94,8 +122,12 @@
       }
     }
 
+    &--2 { margin-bottom: 9.75rem; }
+
     &--3 {
       position: relative;
+      padding-top: 1rem;
+      padding-bottom: 7rem;
       background-color: var(--color-pale-blue);
 
       &::before,
@@ -122,14 +154,17 @@
   }
 
   &__illustration {
+    padding-left: 15%;
+    padding-right: 15%;
     width: 100%;
+
+    &--1 { margin-bottom: 4.5rem; }
+    &--2 { margin-bottom: 6rem; }
+    &--3 { margin-bottom: 5rem; }
   }
 
-  &__paragraph {
-    &--footer {
-      font-size: 0.9375rem;
-      line-height: 1.6;
-    }
+  &__cta {
+    margin-bottom: 18.75rem;
   }
 
   &__form {
@@ -137,6 +172,7 @@
     grid-template-rows: 1fr 1fr;;
     grid-template-columns: 1fr 1fr;
     row-gap: 1rem;
+    margin-bottom: 6rem;
 
     & > input {
       font-size: 1rem;
@@ -160,12 +196,18 @@
     }
   }
 
+  &__about { margin-bottom: 3rem; }
+
+  &__contact { margin-bottom: 3rem; }
+
   &__phone,
   &__email {
     display: flex;
     column-gap: 1rem;
     font-size: 0.875rem;
   }
+
+  &__phone { margin-bottom: 1.5rem; }
 }
 
 .attribution {
