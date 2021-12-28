@@ -1,7 +1,13 @@
+@use "../abstracts/variables" as *;
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap');
 
 html {
   font-size: 100%;
+
+  @media only screen and (min-width: $breakpoint-mobile) {
+    font-size: 200%;
+  }
 }
 
 body {
@@ -57,5 +63,19 @@ p {
     margin-bottom: 2rem;
     font-size: 0.9375rem;
     line-height: 1.6;
+  }
+}
+
+@media only screen and (min-width: $breakpoint-mobile) {
+  .paragraph {
+    &--hero {
+      width: 20rem;
+      margin: 0 auto 1.5rem;
+      font-size: 0.625rem;
+    }
+  }
+
+  .heading {
+    &--hero { margin-bottom: 0.75rem; }
   }
 }

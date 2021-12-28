@@ -199,6 +199,59 @@
   &__phone { margin-bottom: 1.5rem; }
 }
 
+@media only screen and (min-width: $breakpoint-mobile) {
+  .page {
+    &__logo {
+      &--header {
+        width: 7.5rem;
+        margin-left: 0.5rem;
+      }
+    }
+
+    &__hero { margin-bottom: 5rem; }
+
+    &__mockup { padding: 0rem 3.5rem; }
+
+    &__stats {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 61%;
+      margin: 0 auto 9.3rem;
+    }
+
+    &__stat {
+      font-size: 2.5rem;
+
+      span {
+        display: block;
+        color: var(--color-gray);
+        font-size: 0.75rem;
+        font-weight: 600;
+      }
+
+      &:first-child,
+      &:last-child {
+        font-size: 3rem;
+
+        span {
+          margin-top: 0.25rem;
+        }
+      }
+
+      &:first-child {
+        margin-bottom: 0rem;
+      }
+
+      &::before {
+        top: -22%;
+        left: 0.25rem;
+        background-size: 90% 90%;
+      }
+    }
+  }
+}
+
 .attribution {
   display: none;
 }
