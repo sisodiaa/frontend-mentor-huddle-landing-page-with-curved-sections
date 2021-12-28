@@ -73,9 +73,26 @@ p {
       margin: 0 auto 1.5rem;
       font-size: 0.625rem;
     }
+
+    &--benefit {
+      width: 100%;
+      margin: 0 auto;
+      font-size: 0.49rem;
+    }
   }
 
   .heading {
     &--hero { margin-bottom: 0.75rem; }
+
+    &--cta {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+    }
+  }
+
+  .subheading {
+    &--benefit {
+      margin-bottom: 0.75rem;
+    }
   }
 }
