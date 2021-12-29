@@ -17,4 +17,22 @@ footer {
     background-repeat: no-repeat;
     background-size: 100% 100%;
   }
+
+  @media only screen and (min-width: $breakpoint-mobile) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 5rem;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+
+    &::before {
+      top: -4.925rem;
+      height: 4.9375rem;
+      background-image: url(../../images/bg-footer-top-desktop.svg);
+    }
+
+    & > section { flex: 1 }
+  }
 }

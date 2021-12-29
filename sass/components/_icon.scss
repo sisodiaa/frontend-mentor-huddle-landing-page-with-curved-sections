@@ -17,4 +17,9 @@
   width: 1.5rem;
   height: 1.5rem;
   fill: var(--color-white);
+
+  @media only screen and (min-width: $breakpoint-mobile) {
+    height: 1rem;
+    width: 1rem;
+  }
 }

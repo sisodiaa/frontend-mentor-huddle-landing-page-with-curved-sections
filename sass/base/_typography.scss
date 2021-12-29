@@ -79,6 +79,11 @@ p {
       margin: 0 auto;
       font-size: 0.49rem;
     }
+
+    &--footer {
+      font-size: 0.5rem;
+      margin-bottom: 0rem;
+    }
   }
 
   .heading {
@@ -94,5 +99,15 @@ p {
     &--benefit {
       margin-bottom: 0.75rem;
     }
+
+    &--footer {
+      font-size: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+  }
+
+  .page__newsletter > .paragraph--footer {
+    width: 73%;
+    margin-bottom: 1.5rem;
   }
 }
