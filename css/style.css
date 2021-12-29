@@ -191,8 +191,15 @@ footer::before {
 }
 .button--header {
   padding: 0.25rem 1.15rem;
+  color: var(--color-pink);
+  border: 1px solid var(--color-pink);
+  box-shadow: 0px 1px 6px -1px var(--color-pink);
+  transition: all 0.3s;
+}
+.button--header:hover {
   color: var(--color-light-pink);
   border: 1px solid var(--color-light-pink);
+  box-shadow: 0px 1px 6px -1px var(--color-light-pink);
 }
 .button--hero, .button--cta {
   padding: 0.75rem 0rem;
@@ -202,6 +209,12 @@ footer::before {
   background-color: var(--color-pink);
   border: 1px solid var(--color-pink);
   margin: 0 auto;
+  box-shadow: 0px 1px 16px -6px var(--color-dark-cyan);
+  transition: all 0.3s;
+}
+.button--hero:hover, .button--cta:hover {
+  background-color: var(--color-light-pink);
+  border: 1px solid var(--color-light-pink);
 }
 .button--hero {
   margin-bottom: 6rem;
@@ -395,6 +408,11 @@ footer::before {
   background-color: var(--color-pink);
   color: var(--color-white);
   font-weight: 600;
+  transition: all 0.3s;
+}
+.page__form > input[type=submit]:hover {
+  cursor: pointer;
+  background-color: var(--color-light-pink);
 }
 .page__about {
   margin-bottom: 3rem;
